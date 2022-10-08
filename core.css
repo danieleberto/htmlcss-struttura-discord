@@ -1,0 +1,152 @@
+
+    body
+        {
+            margin:0;
+            font-family: 'Whitney', sans-serif;
+            font-family: 'Whitney Semibold', sans-serif;
+            font-family: 'Whitney Book', sans-serif;
+            font-family: 'Whitney Light', sans-serif;
+
+            max-width:1200px;
+            margin-left: auto;
+            margin-right:auto;
+        }
+
+    
+    :root
+        {
+            --menu-color:#add8e6;
+            --menu-item-color:#daa520;
+
+            --hero-back-color:#00008b;
+            --hero-item-color:#ee82ef;
+
+            --element-white-color:#fff;
+            --element-white-item1-color:#1d8fff;
+            --element-white-item2-color:#ffbfcb;
+
+            --element-grey-color:#d3d3d3;
+            --element-grey-item1-color:#ffbfcb;
+            --element-grey-item2-color:#1d8fff;        
+
+            --element-green-color:#d3d3d3;
+            --element-green-item-color:#228b22;
+        }
+
+
+    div.menu
+        {
+            height:40px;
+            background-color: var(--menu-color);
+        }
+
+    div.container-flex
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+    div.menu-item
+        {
+            background-color: var(--menu-item-color);
+            padding:5px;
+            width:20%;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
+
+    div.logo
+        {
+            flex-grow: 0;
+            width:100px;            
+            order: -1;
+            margin-right:2px;
+        }
+
+    div.login
+        {
+            flex-grow: 0;
+            width:100px;     
+            margin-left:2px;       
+        }
+
+    div.hero
+        {
+            height:200px;
+            background-color: var(--hero-back-color);
+            justify-content: center;
+        }
+
+    div.hero-item
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width:800px;
+            background-color: var(--hero-item-color);
+        }
+
+    div.element-white
+        {
+            background-color: var(--element-white-color);
+            justify-content: center;            
+            height:200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding:20px;
+        }
+
+    div.element-white-item1
+        {
+            background-color: var(--element-white-item1-color);
+            width:200px;
+            padding:20px;
+        }
+
+    div.element-white-item2
+        {
+            background-color: var(--element-white-item2-color);
+            width:400px;
+            padding:20px;
+        }
+
+    div.element-grey
+        {
+            background-color: var(--element-grey-color);
+            justify-content: center;            
+            height:200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding:20px;
+        }
+
+    div.element-grey-item1
+        {
+            background-color: var(--element-grey-item1-color);
+            width:400px;
+            padding:20px;
+        }
+
+    div.element-grey-item2
+        {
+            background-color: var(--element-grey-item2-color);
+            width:200px;
+            padding:20px;
+        }
+
+    div.element-green
+        {
+            background-color: var(--element-green-color);
+            justify-content: center;            
+            height:200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding:20px;
+        }
+
+    div.element-green-item
+        {
+            background-color: var(--element-green-item-color);
+            width:800px;
+            padding:20px;
+        }
